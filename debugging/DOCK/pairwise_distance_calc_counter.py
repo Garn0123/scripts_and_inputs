@@ -60,7 +60,7 @@ def main():
             linesplitLen = len(linesplit)
             # extracts molecule name from the DOCK header, and also resets atom_desc for a new molecule
             
-            if (len(linesplit) == 2):
+            if ((len(linesplit) == 2) and ("Name" in line):
                 name = linesplit[1]
                 atom_desc = []
             # extracts from the lines for each atom: [atom number, atom name, x, y, z]
