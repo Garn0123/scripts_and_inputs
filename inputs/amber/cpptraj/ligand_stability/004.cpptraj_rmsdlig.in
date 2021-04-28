@@ -4,5 +4,5 @@ parmstrip :WAT:Na+:Cl-
 
 trajin second_prot_stripfit_imaged.nc
 
-rmsd rms1 first ":309&!(@H=)" nofit mass out second_prot_minimized_nofit.dat 
+rmsd rms1 first ":1-309&!(@H=)" nofit mass out second_prot_minimized_nofit.dat 
 rmsd rm2 first ":310&!(@H=)" nofit mass out second_lig_min_nofit.dat
